@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    background-color: rgb(196, 195, 195);
+}
+
+
+
+#main-container {
+    border: 2px solid rgb(125, 114, 93);
+    width: 700px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    background-color: rgb(27, 25, 25);
+    border-radius: 15px;
+    gap: 25px;
+}
+
+
+#search-box {
+    border: 1px solid rgb(177, 143, 143);
+    width: 60%;
+    height: 15%;
+    border-radius: 15px;
+    margin-top: -150px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    z-index: 2;
+
+}
+
+input {
+    width: 80%;
+    height: 50%;
+    border-radius: 15px;
+    background-color: blanchedalmond;
+    font-weight: bold;
+    margin-left: 10px;
+    font-size: 1.2rem;
+    
+}
+
+#search-button {
+    height: 30%;
+    cursor: pointer;
+    background: rgb(145, 108, 147);
+    font-weight: bold;
+}
+
+#bouncing-icon {
+    font-size: 40px; /* Size of the icon */
+    position: absolute; /* Positioning relative to #main-container */
+    z-index: 1;
+}
+
+#temperature-container {
+    width: 90%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+}
+
+
+
+
+#fahrenheit-container {
+width: 55%;
+height: 100%;
+border: 1px solid rgb(177, 143, 143);
+border-radius: 15px;
+background-color: rgb(225, 208, 182);
+background-size: cover;
+background-position: center;
+
+
+}
+
+.city-name {
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+hr {
+    height: 3px;
+    background-color: black;
+}
+
+h3 {
+    text-align: left;
+    width: 100%;
+    padding-left: 5px;
+    margin: 20px 0;
+    color: rgb(79, 61, 80);
+}
